@@ -1,0 +1,8 @@
+{
+  "name": "spotify-perf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spicetify extension that makes the Spotify desktop client lighter.",
+  "license": "MIT",
+  "scripts": { "test": "bun test" }
+}
