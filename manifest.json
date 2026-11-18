@@ -1,7 +1,7 @@
 {
   "name": "spotify-perf",
   "description": "Make Spotify lighter: pause background animations, stop the player bar's per-second repaint and full-app relayout, and idle Spicy Lyrics' position polling while no lyrics are on screen.",
-  "preview": "",
+  "preview": "assets/preview.png",
   "main": "spotify-perf.js",
   "readme": "README.md",
   "authors": [{ "name": "Alex Hwang", "url": "https://github.com/alextyhwang" }],

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="376" viewBox="0 0 720 376" role="img" aria-label="Spotify CPU while playing in the background">
+<title>Spotify CPU while playing in the background</title>
+<style>
+  .surface{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .muted{fill:#898781}
+  .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7} .stock{fill:#eb6834} .perf{fill:#2a78d6} .gap{stroke:#fcfcfb}
+  @media (prefers-color-scheme: dark){
+    .surface{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7}
+    .grid{stroke:#2c2c2a} .axis{stroke:#383835} .stock{fill:#d95926} .perf{fill:#3987e5} .gap{stroke:#1a1a19}
+  }
+  text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+</style>
+<rect class="surface" width="720" height="376" rx="12"/>
+<text class="t1" x="24" y="38" font-size="19" font-weight="650">Spotify CPU while playing in the background</text>
+<text class="t2" x="24" y="62" font-size="13.5">Sustained CPU per Spotify process. Lower is better.</text>
+<rect class="stock" x="150" y="74" width="12" height="12" rx="3"/>
+<text class="t2" x="168" y="84.5" font-size="13">Stock Spotify</text>
+<rect class="perf" x="300" y="74" width="12" height="12" rx="3"/>
+<text class="t2" x="318" y="84.5" font-size="13">With spotify-perf</text>
+<line class="grid" x1="150.0" y1="92" x2="150.0" y2="304" stroke-width="1"/>
+<text class="muted" x="150.0" y="322" font-size="12" text-anchor="middle">0%</text>
+<line class="grid" x1="250.0" y1="92" x2="250.0" y2="304" stroke-width="1"/>
+<text class="muted" x="250.0" y="322" font-size="12" text-anchor="middle">10%</text>
+<line class="grid" x1="350.0" y1="92" x2="350.0" y2="304" stroke-width="1"/>
+<text class="muted" x="350.0" y="322" font-size="12" text-anchor="middle">20%</text>
+<line class="grid" x1="450.0" y1="92" x2="450.0" y2="304" stroke-width="1"/>
+<text class="muted" x="450.0" y="322" font-size="12" text-anchor="middle">30%</text>
+<line class="grid" x1="550.0" y1="92" x2="550.0" y2="304" stroke-width="1"/>
+<text class="muted" x="550.0" y="322" font-size="12" text-anchor="middle">40%</text>
+<line class="grid" x1="650.0" y1="92" x2="650.0" y2="304" stroke-width="1"/>
+<text class="muted" x="650.0" y="322" font-size="12" text-anchor="middle">50%</text>
+<line class="axis" x1="150" y1="92" x2="150" y2="304" stroke-width="1.5"/>
+<text class="t1" x="136" y="117.5" font-size="14" font-weight="560" text-anchor="end">UI (renderer)</text>
+<path class="stock" d="M150,96 H426.0 Q430.0,96 430.0,100 V108 Q430.0,112 426.0,112 H150 Z"/>
+<text class="t1" x="438.0" y="108.5" font-size="13" font-weight="450">28%</text>
+<path class="perf" d="M150,114 H153.5 Q157.0,114 157.0,117.5 V126.5 Q157.0,130 153.5,130 H150 Z"/>
+<text class="t1" x="165.0" y="126.5" font-size="13" font-weight="650">0.7%</text>
+<text class="t1" x="136" y="173.5" font-size="14" font-weight="560" text-anchor="end">GPU helper</text>
+<path class="stock" d="M150,152 H276.0 Q280.0,152 280.0,156 V164 Q280.0,168 276.0,168 H150 Z"/>
+<text class="t1" x="288.0" y="164.5" font-size="13" font-weight="450">13%</text>
+<path class="perf" d="M150,170 H151.5 Q153.0,170 153.0,171.5 V184.5 Q153.0,186 151.5,186 H150 Z"/>
+<text class="t1" x="161.0" y="182.5" font-size="13" font-weight="650">0.3%</text>
+<text class="t1" x="136" y="229.5" font-size="14" font-weight="560" text-anchor="end">Main process</text>
+<path class="stock" d="M150,208 H186.0 Q190.0,208 190.0,212 V220 Q190.0,224 186.0,224 H150 Z"/>
+<text class="t1" x="198.0" y="220.5" font-size="13" font-weight="450">4%</text>
+<path class="perf" d="M150,226 H166.0 Q170.0,226 170.0,230 V238 Q170.0,242 166.0,242 H150 Z"/>
+<text class="t1" x="178.0" y="238.5" font-size="13" font-weight="650">2%</text>
+<text class="t1" x="136" y="285.5" font-size="14" font-weight="560" text-anchor="end">Total</text>
+<path class="stock" d="M150,264 H596.0 Q600.0,264 600.0,268 V276 Q600.0,280 596.0,280 H150 Z"/>
+<text class="t1" x="608.0" y="276.5" font-size="13" font-weight="450">45%</text>
+<path class="perf" d="M150,282 H176.0 Q180.0,282 180.0,286 V294 Q180.0,298 176.0,298 H150 Z"/>
+<text class="t1" x="188.0" y="294.5" font-size="13" font-weight="650">3%</text>
+<text class="muted" x="24" y="360" font-size="12">MacBook (Apple silicon), Spotify 1.2.71, Spicetify 2.45, measured with top over 10 s samples.</text>
+</svg>

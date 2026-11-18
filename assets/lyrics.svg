@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="208" viewBox="0 0 720 208" role="img" aria-label="Spicy Lyrics position polls with lyrics closed">
+<title>Spicy Lyrics position polls with lyrics closed</title>
+<style>
+  .surface{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .muted{fill:#898781}
+  .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7} .stock{fill:#eb6834} .perf{fill:#2a78d6} .gap{stroke:#fcfcfb}
+  @media (prefers-color-scheme: dark){
+    .surface{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7}
+    .grid{stroke:#2c2c2a} .axis{stroke:#383835} .stock{fill:#d95926} .perf{fill:#3987e5} .gap{stroke:#1a1a19}
+  }
+  text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}
+</style>
+<rect class="surface" width="720" height="208" rx="12"/>
+<text class="t1" x="24" y="38" font-size="19" font-weight="650">Spicy Lyrics position polls with lyrics closed</text>
+<text class="t2" x="24" y="62" font-size="13.5">Each poll is a round trip to Spotify’s main process. Lower is better.</text>
+<rect class="stock" x="150" y="74" width="12" height="12" rx="3"/>
+<text class="t2" x="168" y="84.5" font-size="13">Stock Spotify</text>
+<rect class="perf" x="300" y="74" width="12" height="12" rx="3"/>
+<text class="t2" x="318" y="84.5" font-size="13">With spotify-perf</text>
+<line class="grid" x1="150.0" y1="92" x2="150.0" y2="136" stroke-width="1"/>
+<text class="muted" x="150.0" y="154" font-size="12" text-anchor="middle">0</text>
+<line class="grid" x1="316.66666666666663" y1="92" x2="316.66666666666663" y2="136" stroke-width="1"/>
+<text class="muted" x="316.66666666666663" y="154" font-size="12" text-anchor="middle">20</text>
+<line class="grid" x1="483.3333333333333" y1="92" x2="483.3333333333333" y2="136" stroke-width="1"/>
+<text class="muted" x="483.3333333333333" y="154" font-size="12" text-anchor="middle">40</text>
+<line class="grid" x1="650.0" y1="92" x2="650.0" y2="136" stroke-width="1"/>
+<text class="muted" x="650.0" y="154" font-size="12" text-anchor="middle">60</text>
+<line class="axis" x1="150" y1="92" x2="150" y2="136" stroke-width="1.5"/>
+<text class="t1" x="136" y="117.5" font-size="14" font-weight="560" text-anchor="end">Polls / second</text>
+<path class="stock" d="M150,96 H646.0 Q650.0,96 650.0,100 V108 Q650.0,112 646.0,112 H150 Z"/>
+<text class="t1" x="658.0" y="108.5" font-size="13" font-weight="450">60/s</text>
+<path class="perf" d="M150,114 H154.33333333333334 Q158.33333333333334,114 158.33333333333334,118 V126 Q158.33333333333334,130 154.33333333333334,130 H150 Z"/>
+<text class="t1" x="166.33333333333334" y="126.5" font-size="13" font-weight="650">1/s</text>
+<text class="muted" x="24" y="192" font-size="12">With lyrics on screen, polling stays at 60/s, so lyrics remain frame-accurate.</text>
+</svg>

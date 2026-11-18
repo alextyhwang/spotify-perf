@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="spotify-perf: Spotify CPU in the background drops from 45% to 3%">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#2a78d6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#2a78d6" stop-opacity="0"/>
+    </radialGradient>
+    <style>text{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif}</style>
+  </defs>
+  <rect width="1280" height="640" fill="#111110"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <!-- left: name + claim -->
+  <text x="88" y="150" font-size="30" font-weight="600" fill="#c3c2b7" letter-spacing="0.5">spotify-perf</text>
+  <text x="88" y="232" font-size="64" font-weight="750" fill="#f0efec" letter-spacing="-1.5">A lighter Spotify.</text>
+  <text x="88" y="286" font-size="26" fill="#c3c2b7">One Spicetify extension. No build step.</text>
+  <!-- headline numbers -->
+  <text x="88" y="430" font-size="124" font-weight="750" fill="#d95926" letter-spacing="-3">45%</text>
+  <text x="378" y="418" font-size="64" font-weight="400" fill="#898781">→</text>
+  <text x="474" y="430" font-size="124" font-weight="750" fill="#3987e5" letter-spacing="-3">3%</text>
+  <text x="92" y="482" font-size="24" fill="#c3c2b7">Spotify CPU while playing in the background</text>
+  <!-- feature chips -->
+  <g font-size="20" fill="#f0efec">
+    <rect x="88" y="530" width="196" height="44" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="186" y="559" text-anchor="middle">Player bar</text>
+    <rect x="298" y="530" width="270" height="44" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="433" y="559" text-anchor="middle">Background animations</text>
+    <rect x="582" y="530" width="196" height="44" rx="22" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="680" y="559" text-anchor="middle">Lyrics sync</text>
+  </g>
+  <!-- right: before/after bars -->
+  <g transform="translate(880,160)">
+    <text x="0" y="0" font-size="20" fill="#898781">CPU by process</text>
+    <g font-size="18">
+      <text x="0" y="52" fill="#f0efec">UI</text>
+      <path d="M0,64 H276 Q280,64 280,68 V84 Q280,88 276,88 H0 Z" fill="#d95926"/>
+      <text x="292" y="83" fill="#c3c2b7">28%</text>
+      <path d="M0,92 H3 Q7,92 7,96 V112 Q7,116 3,116 H0 Z" fill="#3987e5"/>
+      <text x="19" y="111" fill="#f0efec" font-weight="650">0.7%</text>
+
+      <text x="0" y="168" fill="#f0efec">GPU</text>
+      <path d="M0,180 H126 Q130,180 130,184 V200 Q130,204 126,204 H0 Z" fill="#d95926"/>
+      <text x="142" y="199" fill="#c3c2b7">13%</text>
+      <path d="M0,208 H1 Q3,208 3,212 V228 Q3,232 1,232 H0 Z" fill="#3987e5"/>
+      <text x="15" y="227" fill="#f0efec" font-weight="650">0.3%</text>
+
+      <text x="0" y="284" fill="#f0efec">Main</text>
+      <path d="M0,296 H36 Q40,296 40,300 V316 Q40,320 36,320 H0 Z" fill="#d95926"/>
+      <text x="52" y="315" fill="#c3c2b7">4%</text>
+      <path d="M0,324 H16 Q20,324 20,328 V344 Q20,348 16,348 H0 Z" fill="#3987e5"/>
+      <text x="32" y="343" fill="#f0efec" font-weight="650">2%</text>
+    </g>
+    <g font-size="16" fill="#c3c2b7">
+      <rect x="0" y="384" width="12" height="12" rx="3" fill="#d95926"/><text x="20" y="395">Stock</text>
+      <rect x="90" y="384" width="12" height="12" rx="3" fill="#3987e5"/><text x="110" y="395">spotify-perf</text>
+    </g>
+  </g>
+</svg>
